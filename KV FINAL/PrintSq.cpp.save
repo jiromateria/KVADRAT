@@ -1,0 +1,35 @@
+#include "PrintSq.h"
+
+/**
+ \file
+*/
+
+int PrintRoots(decisionsq* MainDecisions)
+{
+    unsigned int def = txGetConsoleAttr();
+    txSetConsoleAttr(TX_GREEN);
+    switch(MainDecisions -> nRoots)
+    {
+        case NOROOTS: printf("Корней нет\n");
+                break;
+
+        case ONEROOT: printf("1 корень - %lg\n",MainDecisions -> x1);
+                break;
+
+        case TWOROOTS: printf("2 корня - %lg и %lg\n",MainDecisions -> x1, MainDecisions -> x2);
+                break;
+
+        case ZEROD: printf("Дискриминант = 0, два одинаковых корня - %lg\n",
+                    MainDecisions -> x1);
+                    break;
+
+        case SS_INF_ROOTS: printf("Любое число\n");
+                           break;
+
+        default: ColorPrintf(TX_RED,"ERROR\n");
+                    return 1;
+        }
+    txSetConsoleAttr(def);
+    return 0;
+}
+

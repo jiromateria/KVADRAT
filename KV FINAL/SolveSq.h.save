@@ -1,0 +1,35 @@
+#ifndef SOLVESQ_H_INCLUDED
+#define SOLVESQ_H_INCLUDED
+#include "SquareEquation.h"
+
+/**
+ \file
+ \brief solves square equation
+*/
+/**
+ \brief SolveSquare solves Square Equation
+ \param MainRatios struct with ratios of Square Equation
+ \param MainDecisions struct where decisionsare being recorded
+*/
+void SolveSquare(ratiosq MainRatios, decisionsq* MainDecisions);
+/**
+ \brief Discrim calculates the discriminant
+ \param a ratio of Square Equation
+ \param b ratio of Square Equation
+ \param c ratio of Square Equation
+*/
+static double Discrim(const double a,const double b,const double c);
+/**
+ \brief SolveLine solves line equation
+ \param b ratio of square equation
+ \param c ratio of square equation
+ \param x1 the pointer to Root
+*/
+static int SolveLine(const double b,const double c, double* x1);
+/**
+ \brief DoubleComparison value with type Double compare with 0
+ \param a value with type Double
+*/
+static bool DoubleComparison(const double a);
+
+#endif // SOLVESQ_H_INCLUDED

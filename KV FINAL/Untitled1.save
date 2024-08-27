@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include <TXLib.h>
+
+int main()
+{
+    txTextOut (100)
+}

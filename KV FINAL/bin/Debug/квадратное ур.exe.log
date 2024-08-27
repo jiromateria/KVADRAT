@@ -1,0 +1,176 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x76D2B5CC в функции ungetwc(). Попытка прочесть данные по адресу 0x04000000 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0074351C (32-bit), Flags: Cmdre0, Thread: 0xADD8 (Main), GetLastError(): 126 (Не найден указанный модуль). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x76D2B5CC in C:\Windows\System32\msvcrt.dll: ungetwc()
+# 1 0x76D24D0B in C:\Windows\System32\msvcrt.dll: printf()
+
+# 2 0x0045877C in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe: main() at C:/Users/kolys/OneDrive/Рабочий стол/кв ур/квадратное ур/main.cpp (12):
+
+     10: int main(int argc, char* argv[])
+     11: {
+=>   12:         printf("%sqqqq",0x04000000);
+     13:         switch(Menu(argc, argv))
+     14:         {
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kolys\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2024 19:25:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 26 2024 20:51:16
+
+Run file:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe
+Directory:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x76D2B5CC в функции ungetwc(). Попытка прочесть данные по адресу 0x04000000 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0074351C (32-bit), Flags: Cmdre0, Thread: 0xADD8 (Main), GetLastError(): 126 (Не найден указанный модуль). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x76D2B5CC in C:\Windows\System32\msvcrt.dll: ungetwc()
+# 1 0x76D24D0B in C:\Windows\System32\msvcrt.dll: printf()
+
+# 2 0x0045877C in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe: main() at C:/Users/kolys/OneDrive/Рабочий стол/кв ур/квадратное ур/main.cpp (12):
+
+     10: int main(int argc, char* argv[])
+     11: {
+=>   12:         printf("%sqqqq",0x04000000);
+     13:         switch(Menu(argc, argv))
+     14:         {
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kolys\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2024 19:25:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 26 2024 20:51:16
+
+Run file:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe
+Directory:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x76D2B5CC в функции ungetwc(). Попытка прочесть данные по адресу 0x0000FFFF в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0074351C (32-bit), Flags: Cmdre0, Thread: 0x3834 (Main), GetLastError(): 126 (Не найден указанный модуль). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x76D2B5CC in C:\Windows\System32\msvcrt.dll: ungetwc()
+# 1 0x76D24D0B in C:\Windows\System32\msvcrt.dll: printf()
+
+# 2 0x0045877C in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe: main() at C:/Users/kolys/OneDrive/Рабочий стол/кв ур/квадратное ур/main.cpp (12):
+
+     10: int main(int argc, char* argv[])
+     11: {
+=>   12:         printf("%sqqqq",RGB(255,255,0));
+     13:         switch(Menu(argc, argv))
+     14:         {
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kolys\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2024 19:25:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 26 2024 20:53:14
+
+Run file:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe
+Directory:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x76D2B5CC в функции ungetwc(). Попытка прочесть данные по адресу 0x0000FFFF в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x0074351C (32-bit), Flags: Cmdre0, Thread: 0x3834 (Main), GetLastError(): 126 (Не найден указанный модуль). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x76D2B5CC in C:\Windows\System32\msvcrt.dll: ungetwc()
+# 1 0x76D24D0B in C:\Windows\System32\msvcrt.dll: printf()
+
+# 2 0x0045877C in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe: main() at C:/Users/kolys/OneDrive/Рабочий стол/кв ур/квадратное ур/main.cpp (12):
+
+     10: int main(int argc, char* argv[])
+     11: {
+=>   12:         printf("%sqqqq",RGB(255,255,0));
+     13:         switch(Menu(argc, argv))
+     14:         {
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kolys\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 26 2024 19:25:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 26 2024 20:53:14
+
+Run file:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\bin\Debug\квадратное ур.exe
+Directory:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур
+
+--------------------------------------------------
