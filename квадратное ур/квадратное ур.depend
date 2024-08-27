@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1724689681 source:c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\input.cpp
+	"Input.h"
+
+1724672592 c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\input.h
+	"SquareEquation.h"
+
+1724413752 c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\main.h
+	<stdio.h>
+	<TXLib.h>
+	<math.h>
+	<ctype.h>
+
+1724692235 source:c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\main.cpp
+	"test.h"
+	"Input.h"
+	"SolveSq.h"
+	"PrintSq.h"
+	"SquareEquation.h"
+	"Menu.h"
+
+1724672592 c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\test.h
+	"SquareEquation.h"
+
+1724672592 c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\solvesq.h
+	"SquareEquation.h"
+
+1724415266 c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\printsq.h
+	"SquareEquation.h"
+
+1724689699 source:c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\printsq.cpp
+	"PrintSq.h"
+
+1724671111 source:c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\solvesq.cpp
+	"SolveSq.h"
+
+1724686520 source:c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\test.cpp
+	"test.h"
+	"SolveSq.h"
+
+1724692142 c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\squareequation.h
+	<stdio.h>
+	<TXLib.h>
+	<math.h>
+	<ctype.h>
+	<stdarg.h>
+	"ColorPrint.h"
+
+1724689681 source:c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\menu.cpp
+	"SolveSq.h"
+	"Menu.h"
+	<stdlib.h>
+
+1724672505 c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\menu.h
+
+1724692281 source:c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\colorprint.cpp
+	"SquareEquation.h"
+
+1724691301 c:\users\kolys\onedrive\рабочий стол\кв ур\квадратное ур\colorprint.h
+

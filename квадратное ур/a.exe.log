@@ -1,0 +1,144 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00439089 в функции Menu(). Попытка прочесть данные по адресу NULL в модуле C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x006D751C (32-bit), Flags: Cmdre0, Thread: 0x841C (Main), GetLastError(): 126 (Не найден указанный модуль). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00439089 in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe: Menu()
+# 1 0x004AB011 in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kolys\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 23 2024 23:51:48, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 23 2024 23:57:13
+
+Run file:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe
+Directory:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00439089 в функции Menu(). Попытка прочесть данные по адресу NULL в модуле C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x006D751C (32-bit), Flags: Cmdre0, Thread: 0x841C (Main), GetLastError(): 126 (Не найден указанный модуль). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00439089 in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe: Menu()
+# 1 0x004AB011 in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kolys\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 23 2024 23:51:48, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 23 2024 23:57:13
+
+Run file:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe
+Directory:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00439055 в функции Menu(). Попытка прочесть данные по адресу NULL в модуле C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x006D751C (32-bit), Flags: Cmdre0, Thread: 0x58B8 (Main), GetLastError(): 126 (Не найден указанный модуль). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00439055 in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe: Menu()
+# 1 0x004AB011 in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kolys\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 23 2024 23:59:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 23 2024 23:59:31
+
+Run file:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe
+Directory:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00439055 в функции Menu(). Попытка прочесть данные по адресу NULL в модуле C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x006D751C (32-bit), Flags: Cmdre0, Thread: 0x58B8 (Main), GetLastError(): 126 (Не найден указанный модуль). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00439055 in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe: Menu()
+# 1 0x004AB011 in C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe: main()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kolys\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 23 2024 23:59:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 23 2024 23:59:31
+
+Run file:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур\a.exe
+Directory:	C:\Users\kolys\OneDrive\Рабочий стол\кв ур\квадратное ур
+
+--------------------------------------------------

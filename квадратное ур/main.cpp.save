@@ -1,0 +1,45 @@
+
+#include "test.h"
+#include "Input.h"
+#include "SolveSq.h"
+#include "PrintSq.h"
+#include "SquareEquation.h"
+#include "Menu.h"
+
+
+
+
+int main(int argc, char* argv[])
+{
+        switch(Menu(argc, argv))
+        {
+            case 1: break;
+
+            case 0: if(TestAllVariants())
+                        printf("IZI PIZI\n");
+                    return 0;
+
+            case 2: return 0;
+
+            default: printf("ERROR\n");
+                     return 0;
+        }
+        struct ratiosq MainRatios = {0, 0, 0};
+        struct decisionsq MainDecisions = {0, 0, 0};
+
+        printf("Введите значения коэфициентов квадратного уравнения:\n");
+        printf("ax^2+bx+c=0\n");
+
+        if(InputAllRatioEquation(&MainRatios) == ONEEOF)
+        {
+            printf("EOF");
+            return 0;
+        }
+
+        SolveSquare(MainRatios, &MainDecisions);
+        if(PrintRoots(&MainDecisions) == 1)
+            return 1;
+
+        return 0;
+
+}

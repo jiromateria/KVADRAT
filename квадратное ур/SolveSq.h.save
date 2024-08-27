@@ -1,0 +1,6 @@
+#ifndef SOLVESQ_H_INCLUDED
+#define SOLVESQ_H_INCLUDED
+
+void SolveSquare(ratiosq MainRatios, decisionsq* MainDecisions)
+
+#endif // SOLVESQ_H_INCLUDED

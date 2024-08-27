@@ -1,0 +1,36 @@
+#include "SquareEquation.h"
+
+void ColorPrintf(const unsigned int color, const char* str, ...)
+{
+    assert(str != NULL);
+
+    int def = txGetConsoleAttr();
+    txSetConsoleAttr(color);
+
+    int StrSize = strlen(str);
+    bool t = 0;
+
+    va_list factor;
+    va_start(factor, str);
+    for(int i = 0; i < StrSize; i++)
+    {
+        if(str[i] == '%')
+        {
+            t = 1;
+            continue;
+        }
+        if(t)
+        {
+            vprintf(str, factor);
+            va_arg()
+            t = 0;
+        }
+        else
+            (printf("%c", str[i]));
+
+    }
+    va_end(factor);
+
+    txSetConsoleAttr(def);
+}
+
